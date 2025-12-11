@@ -3,7 +3,7 @@ layout: project
 title: OpenUp – Easy-to-Clean Water Bottle
 description: Horizontally split, clamp-sealed bottle that makes deep cleaning actually doable.
 technologies: [Autodesk Fusion, 3D Printing, O-Rings, Prototyping, DFM/DFS/DFQ]
-image: /assets/images/waterbottle4.png
+image: assets/images/waterbottle4.png
 ---
 
 Most reusable bottles are great at keeping water cold and terrible to clean. Tiny necks, deep bottoms, and complicated lids trap grime and smell. OpenUp is our attempt to fix that: a horizontally split water bottle that opens in the middle so you can actually reach every surface, clean it, and put it back together leak-free.
