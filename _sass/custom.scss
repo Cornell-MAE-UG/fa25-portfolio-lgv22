@@ -54,7 +54,9 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
 .project-item img {
@@ -97,7 +99,9 @@ footer {
 .profile-image {
   float: left;
   margin: 20px 25px 25px 0;
-  width: 150px;
+  width: 250px;
+  height: auto;
+  object-fit: cover;
   vertical-align: top;
 }
 
@@ -124,6 +128,21 @@ footer {
     float: right;
     margin-right: 0;
   }
+}
+
+/* smaller variant for specific inline images */
+.inline-image-sm {
+  max-width: 250px;
+  margin: 0px 25px 15px 25px;
+  vertical-align: top;
+}
+.inline-image-sm-l {
+  float: left;
+  margin-left: 0;
+}
+.inline-image-sm-r {
+  float: right;
+  margin-right: 0;
 }
 
 .profile-image, .project-image {
