@@ -1,25 +1,39 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: assets/images/function-graph.png
+title: Fluid Mechanical Dissection
+description: Disassembly and fluid-mechanics analysis of a hydrostatic transaxle.
+technologies: [Autodesk Fusion, Fluid Mechanics]
+image: assets/images/transaxle-cover.jpg
 ---
 
+For this project, we were asked to take apart a machine and explain how it works using concepts from fluid mechanics. My group dissected a hydrostatic transaxle from a lawn tractor. My role was opening the unit, documenting the internal components, and taking the measurements needed for the flow and displacement calculations.
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+###### What we analyzed
+Inside the transaxle is a hydrostatic pump–motor loop. When the input shaft rotates, the pump uses a tilted swash plate to drive pistons and push fluid through a closed loop. The motor section receives that flow and converts it back into rotation to drive the wheels.  
+We identified the pump pistons, motor pistons, swash plate, case ports, and drive shafts as we disassembled the unit. 
 
+###### Core fluid-mechanics concepts
+We explained the device using:
+- Positive-displacement pump flow: \(Q_p = D_p(\theta)\,\omega_p\)  
+- Swash-plate geometry: \(D_p(\theta) = D_{\max}\sin\theta\)  
+- Motor speed relation from continuity 
+- Torque generation from pressure on each piston 
+- Hydraulic power and efficiency  
+- Leakage modeling using laminar thin-film flow  
 
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+These equations came directly from our measurements of piston diameter, stroke length, and swash-plate angle. 
 
+###### Quantitative results
+Using our measured displacement values:
+- For a 7 GPM flow rate, the motor speed was about 2200 rpm for the small-displacement case and 1100 rpm for the larger one.  
+- These correspond to vehicle speeds of ~8 mph and ~4 mph. 
 
-This is how I solved the problem:
+###### My contributions
+- Disassembled the transaxle and identified components  
+- Took all dimensional measurements for displacement and flow calculations  
+- Helped work through the governing equations and performance estimates  
+- Co-wrote and filmed the final explanation video
 
-```python
-    some code = 10;
-    plot();
-```
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-
+###### Final video
+**Fluid mechanical dissection video**  
+*(link here)*

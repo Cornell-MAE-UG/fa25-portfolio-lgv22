@@ -145,6 +145,15 @@ footer {
   margin-right: 0;
 }
 
+/* block/vertical stacked images */
+.block-image {
+  display: block;
+  max-width: 400px;
+  margin: 20px auto;
+  float: none;
+  clear: both;
+}
+
 .profile-image, .project-image {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
