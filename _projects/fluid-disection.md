@@ -14,8 +14,8 @@ We identified the pump pistons, motor pistons, swash plate, case ports, and driv
 
 ###### Core fluid-mechanics concepts
 We explained the device using:
-- Positive-displacement pump flow: $$Q_p = D_p(\theta)\,\omega_p$$
-- Swash-plate geometry: $$D_p(\theta) = D_{\max}\sin\theta$$
+- Positive-displacement pump flow: \(Q_p = D_p(\theta)\,\omega_p\)  
+- Swash-plate geometry: \(D_p(\theta) = D_{\max}\sin\theta\)  
 - Motor speed relation from continuity 
 - Torque generation from pressure on each piston 
 - Hydraulic power and efficiency  
@@ -36,4 +36,4 @@ Using our measured displacement values:
 
 ###### Final video
 **Fluid mechanical dissection video**  
-[whenWatch on YouTube](https://www.youtube.com/watch?v=19PIwncbsFY)
+*(link here)*
